@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  font-family: poppins;
+}
+body{
+  background-color: #ebe8f3 !important;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+tbody tr {
+  vertical-align: middle;
+}
+tbody tr td:first-child{
+  text-align: end;
+}
+tbody tr td:last-child{
+  text-align: start;
+}
+tbody tr td input{
+  width: 80%;
+  padding: 5px 10px;
+}
